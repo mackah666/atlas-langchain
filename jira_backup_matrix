@@ -1,0 +1,46 @@
+Detailed Analysis:
+Backup Frequency & On-Demand Backups: Both Rewind and GitProtect offer automated daily backups along with the ability to perform on-demand backups, ensuring data is protected against any recent changes or accidental deletions.
+
+Data Retention: Both solutions provide customizable retention policies, allowing organizations to comply with their specific data retention requirements.
+
+Recovery Options: Rewind and GitProtect both support full, granular, and point-in-time recovery, giving users flexibility in how they restore their data.
+
+Cloud Storage Support: Rewind stores backups in its own cloud infrastructure, while GitProtect offers flexibility by supporting multiple cloud storage providers, which can be beneficial for organizations already using specific cloud services.
+
+Compliance & Security: Both solutions are compliant with major regulations and provide robust security features like AES-256 encryption and role-based access control. Rewind also emphasizes compliance with SOC 2, GDPR, and CCPA.
+
+Integration: Rewind integrates with multiple Atlassian products like Jira, Confluence, and Bitbucket. GitProtect, in addition to Jira, supports a broader range of integrations with other version control systems like GitHub and GitLab.
+
+User Interface: Rewind is known for its user-friendly and intuitive dashboard, making it suitable for non-technical users. GitProtect, while comprehensive, may be more complex and better suited for technical users.
+
+Support: Both companies offer 24/7 support and have extensive documentation available to assist users in troubleshooting and setup.
+
+Pricing: Both solutions are subscription-based, but the exact pricing can vary based on the volume of data (for Rewind) or the number of features and users (for GitProtect).
+
+Unique Features: Rewind's easy setup and features like historical snapshots and auditing make it appealing for small to medium-sized businesses. GitProtect's advanced security features and detailed reporting cater to larger enterprises with more complex needs.
+
+
+
+
+
+
+Rewind:
+No automation, objects and object schemas backup - issue with registering api token
+Backup is very quick
+Unable to rentention policy 
+Set email notifications
+Number of backup resources -> 80,714 
+An error occurred while adding organization
+Your Jira organization has invalid API token
+
+
+JiraProtection:
+Encryption not enabled can't seem to delete plan
+No automation, objects and object schemas backup 
+Long time taken to complete a backup (hours)
+Can set retention policy min 31 days
+Backup feedback is confusing - had actually started the daily backup but was displaying the previous day's start time and still showing in progress
+Completing with warning
+Number of backup resources -> 80,994
+An error occurred while adding organization
+Your Jira organization has invalid API token
